@@ -1,0 +1,16 @@
+export const style = {
+  container: `max-w-[720px] mx-auto text-center`,
+  sectionContainer: `flex flex-col min-h-[90vh] bg-gray-100 mt-10 shadow-xl border relative`,
+  nav: `bg-gray-800 h-20 flex justify-between items-center p-4`,
+  heading: `text-white text-3xl`,
+  wrapper: `flex  justify-center`,
+  button: `bg-gray-200 px-4 py-2 hover:bg-gray-100 cursor-pointer`,
+  main: `flex flex-col p-[10px] relative`,
+  message: `flex items-center shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full`,
+  name: `absolute mt-[-4rem] text-gray-600 text-xs`,
+  sent: `bg-[#395fff] text-white flex-row-reverse text-end float-right rounded-bl-full`,
+  receieved: `bg-[#e5e5ea] text-black float-left rounded-br-full`,
+  form: `h-14 w-full max-w-[728px] flex text-xl absolute bottom-0`,
+  input: `w-full text-xl p-3 bg-gray-900 text-white outline-none border-none`,
+  buttonsend: `w-[20%] bg-green-500`,
+};
